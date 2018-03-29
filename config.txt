@@ -1,0 +1,26 @@
+npm install --save-dev webpack
+
+touch webpack.config.js
+
+npm install babel-loader babel-core babel-preset-env webpack
+
+npm install sass-loader node-sass webpack --save-dev
+
+
+npm install style-loader css-loader --save-dev
+
+npm i -D postcss-loader
+
+npm i postcss-import --save-dev
+
+// 引入 extract-text-webpack-plugin，将 CSS 生成单个的文件，而不是内嵌到页面中
+const ExtractTextPlugin = require("extract-text-webpack-plugin");
+
+npm i extract-text-webpack-plugin --save-dev
+
+npm install postcss-cssnext --save-dev
+
+npm install --save-dev webpack@3.10.0  指定版本号
+//4.0的版本以上需要设置'development' or 'production  模式，在package.json的scripts里添加，具体可搜
+
+
